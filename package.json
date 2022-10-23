@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "npm run test"
+    "test": "rm -r ./dist && tsc && jasmine --config=src/spec/support/jasmine.json"
   },
   "files": [
     "/dist"
@@ -14,5 +14,10 @@
     "isNumber"
   ],
   "author": "SkillRazr",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^4.3.0",
+    "jasmine": "^4.4.0",
+    "jasmine-spec-reporter": "^7.0.0"
+  }
 }
