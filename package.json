@@ -1,6 +1,6 @@
 {
   "name": "is-number-ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "isNumber with types",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
