@@ -2,10 +2,14 @@
   "name": "is-number-ts",
   "version": "0.0.1",
   "description": "isNumber with types",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "npm run test"
   },
+  "files": [
+    "/dist"
+  ],
   "keywords": [
     "isNumber"
   ],
