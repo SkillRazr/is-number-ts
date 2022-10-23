@@ -1,0 +1,14 @@
+{
+  "name": "is-number-ts",
+  "version": "0.0.1",
+  "description": "isNumber with types",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "keywords": [
+    "isNumber"
+  ],
+  "author": "SkillRazr",
+  "license": "ISC"
+}
