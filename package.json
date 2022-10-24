@@ -19,5 +19,9 @@
     "@types/jasmine": "^4.3.0",
     "jasmine": "^4.4.0",
     "jasmine-spec-reporter": "^7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tukuna30/is-number-ts.git"
   }
 }
